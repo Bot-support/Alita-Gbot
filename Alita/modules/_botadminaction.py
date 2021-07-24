@@ -28,9 +28,9 @@ BANNED_RIGHTS = ChatBannedRights(
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["harita"]
+db = client["Alita"]
 gbanned = db.gban
-gmuted = db.gmute #RoseloverX
+gmuted = db.gmute #Devil
 
 def get_reason(id):
     return gbanned.find_one({"user": id})
@@ -114,7 +114,7 @@ async def gban(event):
                 {"$set": {"reason": reason, "bannerid": event.sender_id}},
             )
           await event.reply(
-                "This user is already gbanned, I am updating the reason of the gban with your reason."
+                "This user is Already gbanned, I am updating the reason of the gban with your reason."
             )
           await tbot.send_message(GBAN_LOGS, "**Global Ban**\n#UPDATE\n**Originated From: {} {}**\n\n**Sudo Admin:** [{}](tg://user?id={})\n**User:** [{}](tg://user?id={})\n**ID:** `{}`\n**New Reason:** {}".format(
                                    group, event.chat_id, sender, event.sender_id, fname, r_sender_id, r_sender_id, reason))       
