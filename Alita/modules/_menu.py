@@ -22,7 +22,7 @@ pagenumber = db.pagenumber
 
 about = "**About Me**\n\nMy name is Alita ❣️, A powerful group management bot who can take care of your groups with automated simple regular admin actions!\n\n**My Software Version:** 2.0.1\n**Telethon Version:** 1.21.1\n\n**My Developers:**\n• @DANlSH_OP\n• @ITZ_ME_NOOB\n• @RISHISUPERYO\n\nUpdates Channel: [Click Here](t.me/AlitaBotNews)\nSupport Chat: [Click Here](t.me/AlitaBotSupport)\n\nAnd finally thanks for Supporting me😘"
 ad_caption = "Hey! I am Alita 💞, here to help you manage your groups! I perform most of the admin functions and make your group automated!\n\nJoin @AlitaBotNews for updates.\n@AlitaBotSupport for help and support\n\nYou can checkout more about me via following buttons."
-pm_caption = "Hey there! My name is Harita - I'm a powerful group management bot Made to help you manage your groups easily!\n\nHit /help to find out more about me and unleash my full potential.\n\n"
+pm_caption = "Hey there! My name is Alita 🙂 - I'm a powerful group management bot Made to help you manage your groups easily!\n\nHit /help to find out more about me and unleash my full potential.\n\n"
 pmt = "Hello there! I'm Alita 🥰\nI'm a Telethon Based group management bot\n with a Much More features! Have a look\nat the following for an idea of some of \nthe things I can help you with.\n\nMain commands available:\n/start : Starts me, can be used to check i'm alive or not.\n/help : PM's you this message.\nExplore My Commands🙃."
 @register(pattern="^/start$")
 async def start(event):
@@ -33,12 +33,12 @@ async def start(event):
             pm_caption,
             buttons=[
                 [
-                    Button.inline("Tutorial", data="soon"),
-                    Button.inline("Commands", data="help_menu"),
+                    Button.inline("💽 Tutorial", data="soon"),
+                    Button.inline("📚 Commands", data="help_menu"),
                 ],
                   [
                     Button.url(
-                        "Add Me To Your Group!", "t.me/Alita_Gbot?startgroup=true"
+                        "➕ Add Me To Your Group! ➕", "t.me/Alita_Gbot?startgroup=true"
                     ),
                 ],
             ],
@@ -53,12 +53,12 @@ async def reopen_again(event):
             pm_caption,
             buttons=[
                 [
-                    Button.inline("Tutorial", data="soon"),
-                    Button.inline("Commands", data="help_menu"),
+                    Button.inline("💽 Tutorial", data="soon"),
+                    Button.inline("📚 Commands", data="help_menu"),
                 ],
                   [
                     Button.url(
-                        "Add Me To Your Group!", "t.me/Alita_Gbot?startgroup=true"
+                        "➕ Add Me To Your Group! ➕", "t.me/Alita_Gbot?startgroup=true"
                     ),
                 ],
             ],
@@ -75,7 +75,7 @@ async def help(event):
     else:
         await event.reply(
             "Contact me in PM for help!",
-            buttons=[[Button.url("Click me for help!", "t.me/Alita_Gbot?start=help")]],
+            buttons=[[Button.url("Click me for help!❓", "t.me/Alita_Gbot?start=help")]],
         )
 
 @tbot.on(events.CallbackQuery(pattern=r"help_menu"))
@@ -85,12 +85,12 @@ async def help_menu(event):
 
 @tbot.on(events.CallbackQuery(pattern=r"soon"))
 async def soon(event):
-    buttons=[[Button.inline("About Me", data="about_me"), Button.inline("Commands", data="help_menu"),],[Button.inline("Go Back", data="reopen_again"),],]
+    buttons=[[Button.inline("💻 About Me", data="about_me"), Button.inline("Commands", data="help_menu"),],[Button.inline("Go Back", data="reopen_again"),],]
     await event.edit(ad_caption, buttons=buttons)
 
 @tbot.on(events.CallbackQuery(pattern=r"about_me"))
 async def soon(event):
-    buttons=[Button.inline("Go Back", data="soon"),]
+    buttons=[Button.inline("Go Back 🔙", data="soon"),]
     await event.edit(about, buttons=buttons)
 
 @tbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"us_plugin_(.*)")))
@@ -112,7 +112,7 @@ async def on_plug_in_callback_query_handler(event):
     try:
         await event.edit(
             reply_pop_up_alert, buttons=[
-                [Button.inline("Back", data="go_back")]]
+                [Button.inline("⬅️ Back", data="go_back")]]
         )
     except BaseException:
         pass
@@ -172,7 +172,7 @@ def paginate_help(event, page_number, loaded_plugins, prefix):
                     "Go Back 🔙", data="reopen_again"
                ),
                 custom.Button.url(
-                    "Source", "https://github.com/Team-Alita/Alita-Gbot"
+                    "Source", "https://github.com/XD-SHUBH/Alita-Gbot"
                 ),
                 
                 
