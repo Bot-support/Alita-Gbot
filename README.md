@@ -63,7 +63,7 @@ and click the below button!  <br />
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ITZ-DEVIL-OP/Alita-Gbot)
 
 ### Warning
-- Harita is an open source project under gpl v3
+- Alita is an open source project under gpl v3
 - If you kang any module from this source or if you fork it then Don't forget to make your soure public.
 - If you are caught violating rules, You and your bot will get ban globally in many big places.
 
