@@ -45,7 +45,7 @@ Can be found on Telegram as [𝐀𝐋𝐈𝐓𝐀 💞](https://t.me/Alita_Gbot)
 
 # String Session -Telethon
 ### Click The Below Link to Get String Session🧨
-[Run on Repl.it](https://replit.com/@Teameviral/GenerateStringSession-1)
+[Run on Repl.it](https://replit.com/@ROCKY8218/GenerateStringSession-1)
 
 ## How to setup
 
