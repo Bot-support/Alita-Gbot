@@ -1,5 +1,5 @@
 
-![Alita](https://telegra.ph/file/9e3fa9ece7abe665bf8b6.jpg)
+![Alita](https://telegra.ph/file/009bb43cd0bac1f65cede.jpg)
 
 #### 𝐀𝐋𝐈𝐓𝐀 ❣️❣️
 𝐀 𝐓𝐞𝐥𝐞𝐭𝐡𝐨𝐧 𝐁𝐚𝐬𝐞𝐝 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭
