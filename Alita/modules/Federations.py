@@ -1,7 +1,7 @@
 #Written By Yacha on Ptb and aiorogram
 #Written By Avishek Bhattacharjee on Telethon
 #Improved version completely written by RoseLoverX on Telethon
-#By Eviral (github.com/ITZ-DEVIL-OP ; t.me/lTZ_DEVIL_OP)
+#By DEVIL (github.com/ITZ-DEVIL-OP ; t.me/lTZ_DEVIL_OP)
 #Don't Forget to give credit and make your source public.
 #If you want to improve anything, then you can pull it or join @TheCodeTech.
 #No Copyright Allowed
