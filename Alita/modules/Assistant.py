@@ -1,5 +1,5 @@
 #Written By RISHISUPERYO
-#By Eviral (github.com/XD-SHUBH ; t.me/XD_SHUBH)
+#By Shubh (github.com/XD-SHUBH ; t.me/XD_SHUBH)
 #Don't forget to give credit and make your source public.
 
 from Alita import tbot, CMD_HELP
