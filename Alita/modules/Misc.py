@@ -17,7 +17,7 @@ from math import ceil
 import requests
 
 from telethon import Button, custom, events, functions
-from Harita.events import register
+from Alita.events import register
 
 from pymongo import MongoClient
 
