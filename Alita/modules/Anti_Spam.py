@@ -8,7 +8,7 @@ import html
 import re
 import emoji
 import asyncio
-from Harita.modules.sql import cleaner_sql as sql
+from Alita.modules.sql import cleaner_sql as sql
 from pymongo import MongoClient
 from Alita import MONGO_DB_URI
 from Alita.events import register
