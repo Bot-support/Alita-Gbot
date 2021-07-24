@@ -23,13 +23,13 @@ async def lego(event):
  await event.reply('Drawing Text On Pic.Weit!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./Alita/resources/Blankmeisnub.jpg')
+    img = Image.open('./Alita/resources/houtarou-oreki-face.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./Alita/resources/Chopsic.otf", 160)
+    font = ImageFont.truetype("./Alita/resources/wp6199384.jpg", 160)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
