@@ -43,9 +43,9 @@ Can be found on Telegram as [𝐀𝐋𝐈𝐓𝐀 💞](https://t.me/Alita_Gbot)
 <a href="https://t.me/ALITABOTNEWS"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="https://t.me/ALITABOTSUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
-# String Session -Telethon
+# `String Session -Telethon`
 ### Click The Below Link to Get String Session🧨
-[Run on Repl.it](https://replit.com/@ROCKY8218/GenerateStringSession-1)
+[Run on Repl.it](https://GenerateStringSession.SpEcHIDe.repl.run)😅 P - program || T- Telethon 
 
 ## How to setup
 
