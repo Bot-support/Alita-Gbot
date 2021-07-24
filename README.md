@@ -5,8 +5,8 @@
 𝐀 𝐓𝐞𝐥𝐞𝐭𝐡𝐨𝐧 𝐁𝐚𝐬𝐞𝐝 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭
 
 <p align="center">
-    <a href="https://github.com/ITZ-DEVIL-OP/Alita/network"><img src="https://img.shields.io/github/forks/TeamEviral/HaritaRobot?style=for-the-badge" alt="GitHub forks" /></a>
-    <a href="https://github.com/TeamEviral/HaritaRobot/stargazers"><img src="https://img.shields.io/github/stars/TeamEviral/HaritaRobot?style=for-the-badge" alt="GitHub stars" /></a>
+    <a href="https://github.com/ITZ-DEVIL-OP/Alita-Gbot/network"><img src="https://img.shields.io/github/forks/ITZ-DEVIL-OP/Alita-Gbot?style=for-the-badge" alt="GitHub forks" /></a>
+    <a href="https://github.com/ITZ-DEVIL-OP/Alita-Gbot/stargazers"><img src="https://img.shields.io/github/stars/ITZ-DEVIL-OP/Alita-Gbot?style=for-the-badge" alt="GitHub stars" /></a>
 </p>
 <p align="center">
     <a href="https://app.codacy.com/manual/Teameviral/HaritaRobot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
@@ -64,7 +64,7 @@ It really motivates me to continue this project further.
 and click the below button!  <br />
 - Get String Session By Repl.it
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamEviral/HaritaRobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ITZ-DEVIL-OP/Alita-Gbot)
 
 ### Warning
 - Harita is an open source project under gpl v3
