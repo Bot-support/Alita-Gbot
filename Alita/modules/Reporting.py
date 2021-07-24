@@ -26,7 +26,7 @@ BANNED_RIGHTS = ChatBannedRights(
 )
 
 
-from Harita.function import is_admin, can_change_info
+from Alita.function import is_admin, can_change_info
 
 
 async def can_ban_users(chat, user):
