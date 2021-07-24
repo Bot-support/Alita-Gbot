@@ -1,15 +1,15 @@
-#Written By Ayush @XD_SHUBH
-#By Eviral (github.com/XD-SHUBH ; t.me/XD_SHUBH)
+#Written By@XD_SHUBH
+#By SHUBH (github.com/XD-SHUBH ; t.me/XD_SHUBH)
 #Don't Forget to give credit and make your source public.
 
-from Harita import CMD_HELP
+from Alita import CMD_HELP
 import os
-from Harita import tbot
+from Alita import tbot
 import re
 from telethon import events
-import Harita.modules.sql.blacklist_sql as sql
-import Harita.modules.sql.urlblacklist_sql as urlsql
-from Harita.events import register
+import Alita.modules.sql.blacklist_sql as sql
+import Alita.modules.sql.urlblacklist_sql as urlsql
+from Alita.events import register
 from telethon import types
 from telethon.tl import functions
 import html
