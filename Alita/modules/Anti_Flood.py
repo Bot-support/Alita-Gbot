@@ -3,7 +3,7 @@ import html
 from typing import Optional, List
 import re, time
 from Alita.modules.sql import antiflood_sql as sql
-from Alita.tl.functions.channels import EditBannedRequest
+from telethon.tl.functions.channels import EditBannedRequest
 from telethon import *
 from telethon.tl.types import *
 from Alita import *
