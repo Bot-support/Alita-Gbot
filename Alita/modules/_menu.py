@@ -11,7 +11,7 @@ from telethon import types
 from telethon.tl import functions
 
 from pymongo import MongoClient
-from Harita import MONGO_DB_URI
+from Alita import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
