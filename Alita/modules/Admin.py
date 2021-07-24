@@ -34,12 +34,12 @@ from telethon.tl import types
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import *
 
-from Harita import *
-from Harita.events import register
+from Alita import *
+from Alita.events import register
 
 from telethon.tl.functions.messages import EditChatDefaultBannedRightsRequest
 
-from Harita import CMD_HELP
+from Alita import CMD_HELP
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 
 
