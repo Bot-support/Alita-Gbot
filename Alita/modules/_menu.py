@@ -38,7 +38,7 @@ async def start(event):
                 ],
                   [
                     Button.url(
-                        "➕ Add Me To Your Group! ➕", "t.me/haritarobot?startgroup=true"
+                        "➕ Add Me To Your Group! ➕", "t.me/Alita_Gbot?startgroup=true"
                     ),
                 ],
             ],
@@ -75,7 +75,7 @@ async def help(event):
     else:
         await event.reply(
             "Contact me in PM for help!",
-            buttons=[[Button.url("Click me for help!❓", "t.me/haritarobot?start=help")]],
+            buttons=[[Button.url("Click me for help!❓", "t.me/Alita_Gbot?start=help")]],
         )
 
 @tbot.on(events.CallbackQuery(pattern=r"help_menu"))
