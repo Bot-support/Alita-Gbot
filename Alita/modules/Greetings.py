@@ -67,7 +67,7 @@ async def _(event):
                             buttons=[
                                 [
                                     Button.inline(
-                                        "Click Here to prove you're Human 👤", data=f"check-bot-{userid}"
+                                        "Click Here to prove you're Human", data=f"check-bot-{userid}"
                                     )
                                 ]
                             ],
