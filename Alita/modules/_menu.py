@@ -33,12 +33,12 @@ async def start(event):
             pm_caption,
             buttons=[
                 [
-                    Button.inline("💽 Tutorial", data="soon"),
+                    Button.inline("📀 Tutorial", data="soon"),
                     Button.inline("📚 Commands", data="help_menu"),
                 ],
                   [
                     Button.url(
-                        "➕ Add Me To Your Group! ➕", "t.me/Alita_Gbot?startgroup=true"
+                        "➕ Add Me To Your Group! ➕", "t.me/haritarobot?startgroup=true"
                     ),
                 ],
             ],
@@ -53,7 +53,7 @@ async def reopen_again(event):
             pm_caption,
             buttons=[
                 [
-                    Button.inline("💽 Tutorial", data="soon"),
+                    Button.inline("📀 Tutorial", data="soon"),
                     Button.inline("📚 Commands", data="help_menu"),
                 ],
                   [
@@ -75,7 +75,7 @@ async def help(event):
     else:
         await event.reply(
             "Contact me in PM for help!",
-            buttons=[[Button.url("Click me for help!❓", "t.me/Alita_Gbot?start=help")]],
+            buttons=[[Button.url("Click me for help!❓", "t.me/haritarobot?start=help")]],
         )
 
 @tbot.on(events.CallbackQuery(pattern=r"help_menu"))
@@ -85,7 +85,7 @@ async def help_menu(event):
 
 @tbot.on(events.CallbackQuery(pattern=r"soon"))
 async def soon(event):
-    buttons=[[Button.inline("💻 About Me", data="about_me"), Button.inline("📚 Commands", data="help_menu"),],[Button.inline("Go Back 🔙", data="reopen_again"),],]
+    buttons=[[Button.inline("🧐 About Me", data="about_me"), Button.inline("📚 Commands", data="help_menu"),],[Button.inline("Go Back 🔙", data="reopen_again"),],]
     await event.edit(ad_caption, buttons=buttons)
 
 @tbot.on(events.CallbackQuery(pattern=r"about_me"))
@@ -112,7 +112,7 @@ async def on_plug_in_callback_query_handler(event):
     try:
         await event.edit(
             reply_pop_up_alert, buttons=[
-                [Button.inline("⬅️ Back", data="go_back")]]
+                [Button.inline("Back 🔙", data="go_back")]]
         )
     except BaseException:
         pass
